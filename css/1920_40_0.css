@@ -1,0 +1,333 @@
+.main
+{
+	margin:0  auto;
+	margin-right: auto;
+	width:90%;
+	max-width: 1920px;
+}
+.main:after, .section:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.main, .section {
+	zoom: 1;
+}/* =Grid >> Global
+--------------------------------------------------------------------------------*/
+.g1,.g2,.g3,.g5,.g6,.g7,.g8,.g9,.g10,.g11,.g12,.g13,.g14,.g15,.g16,.g17,.g18,.g19,.g20,.g21,.g22,.g23,.g24,.g25,.g26,.g27,.g28,.g29,.g30,.g31,.g32,.g33,.g34,.g35,.g36,.g37,.g38,.g39,.g40,.g41,.g42,.g43,.g44,.g45,.g46,.g47,.g48,.g49,.g50,.g51,.g52,.g53,.g54,.g55,.g56,.g57,.g58,.g59,.g60,.g61,.g62,.g63,.g64,.g65,.g66,.g67,.g68,.g69,.g70,.g71,.g72,.g73,.g74,.g75,.g76,.g77,.g78,.g79,.g80,.g81,.g82,.g83,.g84,.g85,.g86,.g87,.g88,.g89,.g90,.g91,.g92,.g93,.g94,.g95,.g96,.g97,.g98,.g99,.g100{
+	display: inline;
+	float: left;
+	margin:0  0px;
+}
+
+.center{ margin:0 auto;}
+/* =Grid >> 40 Columns
+--------------------------------------------------------------------------------*/
+.g1  {width: 1.25%;}
+.g2  {width: 2.5%;}
+.g3  {width: 3.75%;}
+.g5  {width: 5%;}
+.g6  {width: 6.25%;}
+.g7  {width: 7.5%;}
+.g8  {width: 8.75%;}
+.g9  {width: 9.25%;}
+.g10 {width: 10%;}
+.g11 {width: 11.25%;}
+.g12 {width: 12.5%;}
+.g13 {width: 13.75%;}
+.g14 {width: 14.25%;}
+.g15 {width: 15%;}
+.g16 {width: 16.75%;}
+.g17 {width: 17.5%;}
+.g18 {width: 18.75%;}
+.g19 {width: 19.25%;}
+.g20 {width: 20%;}
+.g21 {width: 21.25%;}
+.g22 {width: 22.5%;}
+.g23 {width: 23.75%;}
+.g24 {width: 24.25%;}
+.g25 {width: 25%;}
+.g26 {width: 26.25%;}
+.g27 {width: 27.5%;}
+.g28 {width: 28.75%;}
+.g29 {width: 29.25%;}
+.g30 {width: 30%;}
+.g31 {width: 31.25%;}
+.g32 {width: 32.5%;}
+.g33 {width: 33.75%;}
+.g34 {width: 34.25%;}
+.g35 {width: 35%;}
+.g36 {width: 36.25%;}
+.g37 {width: 37.5%;}
+.g38 {width: 38.75%;}
+.g39 {width: 39.25%;}
+.g40 {width: 40%;}
+.g41 {width: 41.25%;}
+.g42 {width: 42.5%;}
+.g43 {width: 43.75%;}
+.g44 {width: 44.25%;}
+.g45 {width: 45%;}
+.g46 {width: 46.25%;}
+.g47 {width: 47.5%;}
+.g48 {width: 48.75%;}
+.g49 {width: 49.25%;}
+.g50 {width: 50%;}
+.g51 {width: 51.25%;}
+.g52 {width: 52.5%;}
+.g53 {width: 53.75%;}
+.g54 {width: 54.25%;}
+.g55 {width: 55%;}
+.g56 {width: 56.25%;}
+.g57 {width: 57.5%;}
+.g58 {width: 58.75%;}
+.g59 {width: 59.25%;}
+.g60 {width: 60%;}
+.g61 {width: 61.25%;}
+.g62 {width: 62.5%;}
+.g63 {width: 63.75%;}
+.g64 {width: 64.25%;}
+.g65 {width: 65%;}
+.g66 {width: 66.25%;}
+.g67 {width: 67.5%;}
+.g68 {width: 68.75%;}
+.g69 {width: 69.25%;}
+.g70 {width: 70%;}
+.g71 {width: 71.25%;}
+.g72 {width: 72.5%;}
+.g73 {width: 73.75%;}
+.g74 {width: 74.25%;}
+.g75 {width: 75%;}
+.g76 {width: 76.25%;}
+.g77 {width: 77.5%;}
+.g78 {width: 78.75%;}
+.g79 {width: 79.25%;}
+.g80 {width: 80%;}
+.g81 {width: 81.25%;}
+.g82 {width: 82.5%;}
+.g83 {width: 83.75%;}
+.g84 {width: 84.25%;}
+.g85 {width: 85%;}
+.g86 {width: 86.25%;}
+.g87 {width: 87.5%;}
+.g88 {width: 88.75%;}
+.g89 {width: 89.25%;}
+.g90 {width: 90%;}
+.g91 {width: 91.25%;}
+.g92 {width: 92.5%;}
+.g93 {width: 93.75%;}
+.g94 {width: 94.25%;}
+.g95 {width: 95%;}
+.g96 {width: 96.25%;}
+.g97 {width: 97.5%;}
+.g98 {width: 98.75%;}
+.g99 {width: 99.25%;}
+.g100{width: 100%;}
+
+
+/* left margin
+--------------------------------------------------------------------------------*/
+.ml1  {margin-left: 1.25%;}
+.ml2  {margin-left: 2.5%;}
+.ml3  {margin-left: 3.75%;}
+.ml5  {margin-left: 5%;}
+.ml6  {margin-left: 6.25%;}
+.ml7  {margin-left: 7.5%;}
+.ml8  {margin-left: 8.75%;}
+.ml9  {margin-left: 9.25%;}
+.ml10 {margin-left: 10%;}
+.ml11 {margin-left: 11.25%;}
+.ml12 {margin-left: 12.5%;}
+.ml13 {margin-left: 13.75%;}
+.ml14 {margin-left: 14.25%;}
+.ml15 {margin-left: 15%;}
+.ml16 {margin-left: 16.75%;}
+.ml17 {margin-left: 17.5%;}
+.ml18 {margin-left: 18.75%;}
+.ml19 {margin-left: 19.25%;}
+.ml20 {margin-left: 20%;}
+.ml21 {margin-left: 21.25%;}
+.ml22 {margin-left: 22.5%;}
+.ml23 {margin-left: 23.75%;}
+.ml24 {margin-left: 24.25%;}
+.ml25 {margin-left: 25%;}
+.ml26 {margin-left: 26.25%;}
+.ml27 {margin-left: 27.5%;}
+.ml28 {margin-left: 28.75%;}
+.ml29 {margin-left: 29.25%;}
+.ml30 {margin-left: 30%;}
+.ml31 {margin-left: 31.25%;}
+.ml32 {margin-left: 32.5%;}
+.ml33 {margin-left: 33.75%;}
+.ml34 {margin-left: 34.25%;}
+.ml35 {margin-left: 35%;}
+.ml36 {margin-left: 36.25%;}
+.ml37 {margin-left: 37.5%;}
+.ml38 {margin-left: 38.75%;}
+.ml39 {margin-left: 39.25%;}
+.ml40 {margin-left: 40%;}
+.ml41 {margin-left: 41.25%;}
+.ml42 {margin-left: 42.5%;}
+.ml43 {margin-left: 43.75%;}
+.ml44 {margin-left: 44.25%;}
+.ml45 {margin-left: 45%;}
+.ml46 {margin-left: 46.25%;}
+.ml47 {margin-left: 47.5%;}
+.ml48 {margin-left: 48.75%;}
+.ml49 {margin-left: 49.25%;}
+.ml50 {margin-left: 50%;}
+.ml51 {margin-left: 51.25%;}
+.ml52 {margin-left: 52.5%;}
+.ml53 {margin-left: 53.75%;}
+.ml54 {margin-left: 54.25%;}
+.ml55 {margin-left: 55%;}
+.ml56 {margin-left: 56.25%;}
+.ml57 {margin-left: 57.5%;}
+.ml58 {margin-left: 58.75%;}
+.ml59 {margin-left: 59.25%;}
+.ml60 {margin-left: 60%;}
+.ml61 {margin-left: 61.25%;}
+.ml62 {margin-left: 62.5%;}
+.ml63 {margin-left: 63.75%;}
+.ml64 {margin-left: 64.25%;}
+.ml65 {margin-left: 65%;}
+.ml66 {margin-left: 66.25%;}
+.ml67 {margin-left: 67.5%;}
+.ml68 {margin-left: 68.75%;}
+.ml69 {margin-left: 69.25%;}
+.ml70 {margin-left: 70%;}
+.ml71 {margin-left: 71.25%;}
+.ml72 {margin-left: 72.5%;}
+.ml73 {margin-left: 73.75%;}
+.ml74 {margin-left: 74.25%;}
+.ml75 {margin-left: 75%;}
+.ml76 {margin-left: 76.25%;}
+.ml77 {margin-left: 77.5%;}
+.ml78 {margin-left: 78.75%;}
+.ml79 {margin-left: 79.25%;}
+.ml80 {margin-left: 80%;}
+.ml81 {margin-left: 81.25%;}
+.ml82 {margin-left: 82.5%;}
+.ml83 {margin-left: 83.75%;}
+.ml84 {margin-left: 84.25%;}
+.ml85 {margin-left: 85%;}
+.ml86 {margin-left: 86.25%;}
+.ml87 {margin-left: 87.5%;}
+.ml88 {margin-left: 88.75%;}
+.ml89 {margin-left: 89.25%;}
+.ml90 {margin-left: 90%;}
+.ml91 {margin-left: 91.25%;}
+.ml92 {margin-left: 92.5%;}
+.ml93 {margin-left: 93.75%;}
+.ml94 {margin-left: 94.25%;}
+.ml95 {margin-left: 95%;}
+.ml96 {margin-left: 96.25%;}
+.ml97 {margin-left: 97.5%;}
+.ml98 {margin-left: 98.75%;}
+.ml99 {margin-left: 99.25%;}
+.ml100{margin-left: 100%;}
+
+/* right margin
+--------------------------------------------------------------------------------*/
+.mr1 {margin-right: 1.25%;}
+.mr2 {margin-right: 2.5%;}
+.mr3 {margin-right: 3.75%;}
+.mr5 {margin-right: 5%;}
+.mr6 {margin-right: 6.25%;}
+.mr7 {margin-right: 7.5%;}
+.mr8 {margin-right: 8.75%;}
+.mr9 {margin-right: 9.25%;}
+.mr10{margin-right: 10%;}
+.mr11{margin-right: 11.25%;}
+.mr12{margin-right: 12.5%;}
+.mr13{margin-right: 13.75%;}
+.mr14{margin-right: 14.25%;}
+.mr15{margin-right: 15%;}
+.mr16{margin-right: 16.75%;}
+.mr17{margin-right: 17.5%;}
+.mr18{margin-right: 18.75%;}
+.mr19{margin-right: 19.25%;}
+.mr20{margin-right: 20%;}
+.mr21{margin-right: 21.25%;}
+.mr22{margin-right: 22.5%;}
+.mr23{margin-right: 23.75%;}
+.mr24{margin-right: 24.25%;}
+.mr25{margin-right: 25%;}
+.mr26{margin-right: 26.25%;}
+.mr27{margin-right: 27.5%;}
+.mr28{margin-right: 28.75%;}
+.mr29{margin-right: 29.25%;}
+.mr30{margin-right: 30%;}
+.mr31{margin-right: 31.25%;}
+.mr32{margin-right: 32.5%;}
+.mr33{margin-right: 33.75%;}
+.mr34{margin-right: 34.25%;}
+.mr35{margin-right: 35%;}
+.mr36{margin-right: 36.25%;}
+.mr37{margin-right: 37.5%;}
+.mr38{margin-right: 38.75%;}
+.mr39{margin-right: 39.25%;}
+.mr40{margin-right: 40%;}
+.mr41{margin-right: 41.25%;}
+.mr42{margin-right: 42.5%;}
+.mr43{margin-right: 43.75%;}
+.mr44{margin-right: 44.25%;}
+.mr45{margin-right: 45%;}
+.mr46{margin-right: 46.25%;}
+.mr47{margin-right: 47.5%;}
+.mr48{margin-right: 48.75%;}
+.mr49{margin-right: 49.25%;}
+.mr50{margin-right: 50%;}
+.mr51{margin-right: 51.25%;}
+.mr52{margin-right: 52.5%;}
+.mr53{margin-right: 53.75%;}
+.mr54{margin-right: 54.25%;}
+.mr55{margin-right: 55%;}
+.mr56{margin-right: 56.25%;}
+.mr57{margin-right: 57.5%;}
+.mr58{margin-right: 58.75%;}
+.mr59{margin-right: 59.25%;}
+.mr60{margin-right: 60%;}
+.mr61{margin-right: 61.25%;}
+.mr62{margin-right: 62.5%;}
+.mr63{margin-right: 63.75%;}
+.mr64{margin-right: 64.25%;}
+.mr65{margin-right: 65%;}
+.mr66{margin-right: 66.25%;}
+.mr67{margin-right: 67.5%;}
+.mr68{margin-right: 68.75%;}
+.mr69{margin-right: 69.25%;}
+.mr70{margin-right: 70%;}
+.mr71{margin-right: 71.25%;}
+.mr72{margin-right: 72.5%;}
+.mr73{margin-right: 73.75%;}
+.mr74{margin-right: 74.25%;}
+.mr75{margin-right: 75%;}
+.mr76{margin-right: 76.25%;}
+.mr77{margin-right: 77.5%;}
+.mr78{margin-right: 78.75%;}
+.mr79{margin-right: 79.25%;}
+.mr80{margin-right: 80%;}
+.mr81{margin-right: 81.25%;}
+.mr82{margin-right: 82.5%;}
+.mr83{margin-right: 83.75%;}
+.mr84{margin-right: 84.25%;}
+.mr85{margin-right: 85%;}
+.mr86{margin-right: 86.25%;}
+.mr87{margin-right: 87.5%;}
+.mr88{margin-right: 88.75%;}
+.mr89{margin-right: 89.25%;}
+.mr90{margin-right: 90%;}
+.mr91{margin-right: 91.25%;}
+.mr92{margin-right: 92.5%;}
+.mr93{margin-right: 93.75%;}
+.mr94{margin-right: 94.25%;}
+.mr95{margin-right: 95%;}
+.mr96{margin-right: 96.25%;}
+.mr97{margin-right: 97.5%;}
+.mr98{margin-right: 98.75%;}
+.mr99{margin-right: 99.25%;}
+.mr100{margin-right: 100%;}
+
+.inside{margin:0 0;}
