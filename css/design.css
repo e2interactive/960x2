@@ -1,0 +1,31 @@
+body {
+	background: #efefef;
+	color: #333;
+	font-size: 11px;
+	padding: 20px 0 40px;
+}
+a {
+	color: #333;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+.main h1 {
+	font-weight: normal;
+	text-align: center;
+}
+.main h2 {
+	padding: 20px 0 0;
+	text-align: center;
+}
+.main p {
+	border: 1px solid #E1E1E1;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 80%;
+}
+.main {
+	background-color: #FFFFFF;
+}

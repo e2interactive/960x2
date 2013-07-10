@@ -142,7 +142,9 @@
 .ml13 {margin-left: 13.75%;}
 .ml14 {margin-left: 14.25%;}
 .ml15 {margin-left: 15%;}
-.ml16 {margin-left: 16.75%;}
+.ml16 {
+	margin-left: 16.25%;
+}
 .ml17 {margin-left: 17.5%;}
 .ml18 {margin-left: 18.75%;}
 .ml19 {margin-left: 19.25%;}
@@ -244,7 +246,9 @@
 .mr13{margin-right: 13.75%;}
 .mr14{margin-right: 14.25%;}
 .mr15{margin-right: 15%;}
-.mr16{margin-right: 16.75%;}
+.mr16{
+	margin-right: 16.25%;
+}
 .mr17{margin-right: 17.5%;}
 .mr18{margin-right: 18.75%;}
 .mr19{margin-right: 19.25%;}
